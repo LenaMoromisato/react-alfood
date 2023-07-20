@@ -16,3 +16,5 @@ instalar o Pacote de atualização do kernel do Linux do WSL2 para computadores 
 * localhost:8000
 
 * npm i axios
+
+* npm install @mui/material @emotion/react @emotion/styled
