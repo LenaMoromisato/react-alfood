@@ -7,7 +7,10 @@ Conteúdo do curso:
 * Baixamos e configuramos as dependências do Alfood;
 * Utilizamos o swagger para entender como a nova API funciona;
 * Instalamos e preparamos o axios;
-* Fizemos requisições GET, para listar pratos e restaurantes.
+* Fizemos requisições GET, para listar pratos e restaurantes;
+* Instalamos e utilizamos a biblioteca MUI;
+* Implementamos a listagem de restaurantes realizando uma requisição GET;
+* Criamos a rotina de cadastro de restaurantes com o verbo HTTP POST.
 
 -----
 
