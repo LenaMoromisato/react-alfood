@@ -1,3 +1,16 @@
+# Curso React: integrando seu projeto React com APIs (Programa Desenvolve da Boticário e Alura)
+
+> Status do projeto: em desenvolvimento
+
+Conteúdo do curso:
+
+* Baixamos e configuramos as dependências do Alfood;
+* Utilizamos o swagger para entender como a nova API funciona;
+* Instalamos e preparamos o axios;
+* Fizemos requisições GET, para listar pratos e restaurantes.
+
+-----
+
 ![Integrando seu projeto React com APIs](thumbnail.png)
 
 # Alfood
