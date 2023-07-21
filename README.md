@@ -16,7 +16,10 @@ Conteúdo do curso:
 * Montamos um formulário de busca de restaurantes;
 * Organizamos o layout com elementos do MUI;
 * Organizamos o nosso código, centralizando a criação de um cliente do axios;
-* Utilizamos a ordenação de restaurantes da API.
+* Utilizamos a ordenação de restaurantes da API;
+* Aninhamos as rotas da área administrativa;
+* Organizamos o layout utilizando o <Outlet />;
+* Descobrimos que podemos usar async e await para trabalhar com promessas.
 
 -----
 
