@@ -10,7 +10,10 @@ Conteúdo do curso:
 * Fizemos requisições GET, para listar pratos e restaurantes;
 * Instalamos e utilizamos a biblioteca MUI;
 * Implementamos a listagem de restaurantes realizando uma requisição GET;
-* Criamos a rotina de cadastro de restaurantes com o verbo HTTP POST.
+* Criamos a rotina de cadastro de restaurantes com o verbo HTTP POST;
+* Realizamos requisições utilizando os verbos PUT e DELETE;
+* Enviamos parâmetros em requisições GET;
+* Montamos um formulário de busca de restaurantes.
 
 -----
 
