@@ -1,6 +1,6 @@
 # Curso React: integrando seu projeto React com APIs (Programa Desenvolve da Boticário e Alura)
 
-> Status do projeto: em desenvolvimento
+> Status do projeto: concluído
 
 Conteúdo do curso:
 
@@ -19,7 +19,10 @@ Conteúdo do curso:
 * Utilizamos a ordenação de restaurantes da API;
 * Aninhamos as rotas da área administrativa;
 * Organizamos o layout utilizando o <Outlet />;
-* Descobrimos que podemos usar async e await para trabalhar com promessas.
+* Descobrimos que podemos usar async e await para trabalhar com promessas;
+* Enviamos um arquivo para a api utilizando o FormData;
+* Utilizamos inputs mais complexos do MUI, como por exemplo o Select;
+* Fizemos requisições adicionais necessárias para o formulário de pratos.
 
 -----
 
