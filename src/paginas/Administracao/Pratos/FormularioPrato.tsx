@@ -36,6 +36,36 @@ const FormularioPrato = () => {
     const aoSubmeterForm = (evento: React.FormEvent<HTMLFormElement>) => {
         evento.preventDefault()
 
+        const formData = new FormData();
+
+        formData.append('nome', nomePrato)
+        formData.append('descricao', descricao)
+
+        formData.append('tag', tag)
+
+        formData.append('restaurante', restaurante)
+
+        if (imagem) {
+            formData.append('imagem', imagem)
+        }
+
+        http.request({
+            url: 'pratos/',
+            method: 'POST',
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            },
+            data: formData
+        })
+            .then(() => {
+                setNomePrato('')
+                setDescricao('')
+                setTag('')
+                setRestaurante('')
+                alert('Prato cadastrado com sucesso!')
+            })
+            .catch(erro => console.log(erro))
+
     }
 
     return (
@@ -69,7 +99,7 @@ const FormularioPrato = () => {
                 <FormControl margin="dense" fullWidth>
                     <InputLabel id="select-tag">Tag</InputLabel>
                     <Select labelId="select-tag" value={tag} onChange={evento => setTag(evento.target.value)}>
-                        {tags.map(tag => <MenuItem key={tag.id} value={tag.id}>
+                        {tags.map(tag => <MenuItem key={tag.id} value={tag.value}>
                             {tag.value}
                         </MenuItem>)}
                     </Select>   
